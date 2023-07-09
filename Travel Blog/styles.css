@@ -22,8 +22,6 @@ body {
   color: #2E3637DD;
 }
 
-
-
 #hero-img {
   min-height: 100vh;
   background-image: url(images/clay-banks-u27Rrbs9Dwc-unsplash.jpg);
@@ -91,6 +89,7 @@ body {
   color: goldenrod;
 }
 
+
 h1 {
   display: flex;
   justify-content: center;
@@ -107,6 +106,35 @@ h2 {
   justify-content: center;
   padding: 1.5rem;
   font-size: 2rem;
+}
+
+.description {
+  color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  /* padding: 1.5rem; */
+  border: 1px solid #f0f8ff;
+  outline: none;
+  border-radius: 60px;
+  background-color: transparent;
+  color: #f0f8ff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-btn {
+  background-color: #f0f8ff11;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .spread {
