@@ -16,3 +16,16 @@ nav li a {
   text-decoration: none;
   color: #000;
 }
+
+/* nested menu styles */
+nav li .dropdown {
+  display: none;
+}
+
+nav li:hover > .dropdown {
+  display: block;
+  position: absolute;
+  background-color: #ddd;
+  /* margin-left: -5px; */
+  padding: 10px;
+}
