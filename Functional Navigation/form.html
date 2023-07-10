@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information Form</title>
+  <style>
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+    <section>
+      <h2>Please Fill Up The Form</h2>
+      <form action="">
+        <label for="name"> Your Name:
+          <input id="named" type="text"
+          placeholder="Your Name">
+        </label>
+        <label for="email"> Your Email:
+          <input type="email" name="" id="email"
+          placeholder="Your Email">
+        </label>
+        <label for="phone"> Your Phone:
+          <input type="number" name="" id="phone"
+          placeholder="Your Phone Number">
+        </label>
+
+        <fieldset>
+          <legend>Pick One Specialty</legend>
+          <label for="front-end">
+            <input 
+            type="radio" 
+            name="course-name" 
+            id="front-end"> Front End
+          </label>
+          <label for="back-end">
+            <input 
+            type="radio" 
+            name="course-name" 
+            id="back-end"> Back End
+          </label>
+          <label for="full-stack">
+            <input 
+            type="radio" 
+            name="course-name" 
+            id="full-stack"> Full Stack
+          </label>          
+        </fieldset>
+
+        <fieldset>
+          <legend>Choose Your Courses</legend>
+          <label for="html">
+            <input 
+            type="checkbox" 
+            name="course-name" 
+            id="html"> HTML
+          </label>
+          <label for="css">
+            <input 
+            type="checkbox" 
+            name="course-name" 
+            id="css"> CSS
+          </label>
+          <label for="js">
+            <input 
+            type="checkbox" 
+            name="course-name" 
+            id="js"> JavaScript
+          </label>
+          <label for="php">
+            <input 
+            type="checkbox" 
+            name="course-name" 
+            id="php"> PHP
+          </label>
+          <label for="mysql">
+            <input 
+            type="checkbox" 
+            name="course-name" 
+            id="mysql"> MySQL
+          </label>
+          <label for="node">
+            <input 
+            type="checkbox" 
+            name="course-name" 
+            id="node"> Node JS
+          </label>
+          <label for="react">
+            <input 
+            type="checkbox" 
+            name="course-name" 
+            id="react"> React JS
+          </label>
+          <label for="laravel">
+            <input 
+            type="checkbox" 
+            name="course-name" 
+            id="laravel"> Laravel
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Special Instructions</legend>
+          <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
