@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>Flexbox</title>
+  <style>
+    .container1 {
+      border: 2px solid salmon;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+    .container2 {
+      border: 2px solid salmon;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+    .container3 {
+      border: 2px solid salmon;
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+    }
+    .box {
+      border: 2px dashed blueviolet;
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flexbox Layout</h1>
+  <div class="container1">
+    <div class="box">Box-1</div>
+    <div class="box">Box-2</div>
+    <div class="box">Box-3</div>
+  </div>
+  <div class="container2">
+    <div class="box">Box-4</div>
+    <div class="box">Box-5</div>
+    <div class="box">Box-6</div>
+  </div>
+  <div class="container3">
+    <div class="box">Box-7</div>
+    <div class="box">Box-8</div>
+    <div class="box">Box-9</div>
+  </div>
+</body>
+</html>
