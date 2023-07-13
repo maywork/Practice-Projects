@@ -15,9 +15,18 @@
       /* color: mediumvioletred; */
       color: #999;
     }
+    .form-container {
+      height: 95vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border: 2px solid mediumaquamarine; */
+    }
     .form {
       display: flex;
       flex-direction: column;
+      width: 50vw;
+      /* border: 2px solid blueviolet; */
     }
     .form input {
       margin-bottom: 10px;
@@ -39,11 +48,13 @@
     <a href="#">Login</a>
   </nav>
 
-  <form action="" class="form">
-    <h3>Please Login</h3>
-    <input type="email" placeholder="Your Email" required>
-    <input type="password" placeholder="Your Password" required>
-    <input type="submit" value="Login">
-  </form>
+  <section class="form-container">
+    <form action="" class="form">
+      <h3>Please Login</h3>
+      <input type="email" placeholder="Your Email" required>
+      <input type="password" placeholder="Your Password" required>
+      <input type="submit" value="Login">
+    </form>
+  </section>
 </body>
 </html>
