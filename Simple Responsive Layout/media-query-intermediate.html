@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Media Query</title>
+  <style>
+    .container {
+      color: whitesmoke;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      text-align: center;
+    }
+    .pink {
+      background-color: hotpink;
+      border: 1px solid magenta;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    .pink img {
+      width: 100%;
+    }
+    /* smaller device */
+    @media screen and (max-width: 576px) {
+      .container {
+        grid-template-columns: repeat(1, 1fr);
+        color: #d9058d;
+      }
+      .pink {
+        background-color: whitesmoke;
+      }
+    }
+    /* medium device */
+    @media screen and (min-width: 577px) and (max-width: 992px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+        color: #d9058d;
+      }
+      .pink {
+        background-color: lightpink;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 1</h3>
+      <p>Ticket Price: $100</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut odio laboriosam explicabo illum dignissimos deleniti provident, nesciunt dolor distinctio eveniet!</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 2</h3>
+      <p>Ticket Price: $200</p>
+      <p>Distinctio perferendis unde commodi, repellat, minima voluptatibus similique ut quidem facilis saepe et beatae aperiam illum ipsa deserunt pariatur facere.</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 3</h3>
+      <p>Ticket Price: $300</p>
+      <p>Quis nihil quidem veniam soluta omnis neque dolor explicabo porro consequuntur a ducimus delectus nostrum amet tenetur, molestiae molestias voluptas?</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 4</h3>
+      <p>Ticket Price: $400</p>
+      <p>Autem officia dolore commodi minima enim! Ea voluptates ipsam labore pariatur laboriosam in! Quod aspernatur magnam quisquam! Unde, reprehenderit sint?</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 5</h3>
+      <p>Ticket Price: $500</p>
+      <p>Velit, quaerat fuga labore, facilis obcaecati iste, saepe dolorem doloribus repellat maiores dignissimos necessitatibus asperiores? Quae voluptate omnis error consectetur!</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 6</h3>
+      <p>Ticket Price: $600</p>
+      <p>Autem porro cupiditate ipsa amet. Praesentium sequi eum, qui iste corporis impedit minus cum exercitationem molestiae ad ex placeat incidunt?</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 7</h3>
+      <p>Ticket Price: $700</p>
+      <p>Neque nesciunt, porro ex rem quas magni eos itaque repellat eligendi eius, laborum totam ut consectetur! Atque laboriosam quis architecto?</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 8</h3>
+      <p>Ticket Price: $800</p>
+      <p>Unde eligendi alias aut impedit. Perferendis, unde id sapiente eligendi non neque aliquid provident, iure ullam voluptatem incidunt nostrum doloribus!</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 9</h3>
+      <p>Ticket Price: $900</p>
+      <p>Veniam, odit. Praesentium numquam, saepe tenetur nesciunt aut natus, voluptates error doloremque magni itaque atque neque, accusamus odit beatae eveniet?</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 10</h3>
+      <p>Ticket Price: $1000</p>
+      <p>In quis corrupti odio voluptatibus, fugiat incidunt non minima ad id quia veniam dolorem voluptatum beatae eveniet praesentium, iure voluptate?</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 11</h3>
+      <p>Ticket Price: $1100</p>
+      <p>Eaque ullam culpa laborum exercitationem commodi ratione hic veritatis, animi iste! Minus, animi fugit et rerum odio ut esse fugiat.</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 12</h3>
+      <p>Ticket Price: $1200</p>
+      <p>Reprehenderit, possimus. Doloremque, ipsa. Accusantium, nam similique exercitationem architecto eius quibusdam eligendi impedit quasi quo, inventore consequatur fugit molestias repudiandae!</p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+</body>
+</html>
