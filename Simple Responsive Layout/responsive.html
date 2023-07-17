@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  <style>
+    body {
+      background-color: #fcf1f3;
+      border: 2px solid magenta;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+    .image-container {
+      display: flex;
+    }
+    .image-container div {
+      width: 50%;
+    }
+    .image-container img {
+      width: 100%;
+    }
+    @media screen and (max-width: 576px) {
+      .image-container {
+        flex-direction: column-reverse;
+      }
+      .image-container div {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Website</h1>
+  <header>
+    <ol>
+      <li>Viewport Meta Tag</li>
+      <li>CSS Relative Unit</li>
+      <li>Body Max-Width & Horizontal Center Align</li>
+      <li>Image Fluid</li>
+      <li>Two Column Flex & Use Media Query with Flex Direction Column</li>
+      <li>Multi Column: Grid Layout</li>
+      <li>Menu Responsive: will need Javascript</li>
+    </ol>
+
+    <div class="image-container">
+      <div>
+        <img src="images/barbie-logo.webp" alt="">
+      </div>
+      <div> 
+        <img src="images/barbie.webp" alt=""> 
+      </div>
+    </div>
+
+  </header>
+</body>
+</html>
