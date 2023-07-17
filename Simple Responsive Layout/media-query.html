@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+  <style>
+    .container {
+      color: white;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .pink {
+      background-color: hotpink;
+      border: 1px solid magenta;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    .pink img {
+      width: 100%;
+    }
+    /* simple media query */
+     @media screen and (max-width: 880px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media screen and (max-width: 576px) {
+      .container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- .container>.pink*12>img[src='images/barbie-logo.webp']+h3{Barbie Logo - $}+p{Ticket Price: \$$0}+p>lorem20 -->
+
+  <div class="container">
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 1</h3>
+      <p>Ticket Price: $10</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia sunt ratione animi eum aspernatur accusamus odit doloribus nisi, esse quasi.</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 2</h3>
+      <p>Ticket Price: $20</p>
+      <p>Veritatis architecto magni nam aperiam, iste, ab sint dignissimos unde ut incidunt repudiandae fugit? Nulla, perferendis! Quis quae magni debitis.</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 3</h3>
+      <p>Ticket Price: $30</p>
+      <p>Veniam incidunt molestias accusantium, sed minus debitis similique, laudantium laboriosam illo consectetur quia expedita tempora fuga, quae eveniet facilis officia.</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 4</h3>
+      <p>Ticket Price: $40</p>
+      <p>Officia iure deserunt impedit iusto possimus dolorem repellendus totam, cumque dicta minus error aliquid magnam officiis magni. Distinctio, consectetur beatae?</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 5</h3>
+      <p>Ticket Price: $50</p>
+      <p>Natus aut fugit reprehenderit explicabo, impedit magnam delectus deserunt error facere eaque voluptatem nihil quod, dolore, consectetur ipsum vero alias.</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 6</h3>
+      <p>Ticket Price: $60</p>
+      <p>Numquam impedit expedita recusandae vitae! Consequatur quidem ratione sunt doloribus blanditiis incidunt, tempore dolorem ullam quo laboriosam vel quos explicabo!</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 7</h3>
+      <p>Ticket Price: $70</p>
+      <p>Nostrum facilis omnis, sunt nihil voluptates numquam a eos suscipit deleniti dolores praesentium earum ipsum ex placeat atque neque reprehenderit?</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 8</h3>
+      <p>Ticket Price: $80</p>
+      <p>Consequuntur molestias provident rerum quod eligendi quas itaque, veniam repellat architecto dolorem alias iste iure distinctio quidem in, error eveniet?</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 9</h3>
+      <p>Ticket Price: $90</p>
+      <p>Iure autem molestiae quisquam, optio non perspiciatis nisi saepe velit hic minima pariatur facilis illo dolor eveniet quos nostrum numquam.</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 10</h3>
+      <p>Ticket Price: $100</p>
+      <p>Id, vero. Ratione ad inventore quas saepe repudiandae magni unde atque asperiores dicta corporis reprehenderit, iusto aut facere provident eveniet?</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 11</h3>
+      <p>Ticket Price: $110</p>
+      <p>Quos illo modi assumenda quisquam laboriosam architecto earum veritatis. Praesentium ad temporibus blanditiis, non labore sit obcaecati autem beatae harum?</p>
+    </div>
+    <div class="pink">
+      <img src="images/barbie-logo.webp" alt="">
+      <h3>Barbie Logo - 12</h3>
+      <p>Ticket Price: $120</p>
+      <p>At maxime quisquam tempore natus repellat accusamus enim nihil reiciendis saepe deserunt vel quia, laboriosam minus eligendi ipsa quidem perspiciatis.</p>
+    </div>
+  </div>
+</body>
+</html>
