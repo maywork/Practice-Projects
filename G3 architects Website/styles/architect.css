@@ -6,6 +6,10 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.text-grey {
+  color: #727272;
+}
+
 .btn-primary {
   border-radius: 8px;
   color: white;
@@ -64,40 +68,16 @@ nav li a {
   color: #131313;
 }
 
-.banner-description {
-  color: #727272;
-}
-
 .banner img {
   margin-top: 20px;
   width: 100%;
   height: auto;
 }
 
-/* responsive media query */
-@media screen and (max-width: 576px) {
-  header {
-    padding: 20px;
-  }
-  nav {
-    flex-direction: column;
-  }
-}
-
-/* tablet or medium devices */
-@media screen and (min-width: 576px) and (max-width: 960px) {
-  header {
-    padding: 20px;
-  }
-  nav {
-    flex-direction: column;
-  }
-}
-
 /* main styles */
 main {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 /* teams styles */
@@ -128,4 +108,41 @@ main {
 
 .teams-title .text-features {
   color: #ff900e;
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav,
+  .teams-container {
+    flex-direction: column;
+  }
+
+  .teams-img-container {
+    grid-template-columns: 1fr;
+  }
+
+  .teams-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+  }
+  nav,
+  .teams-container {
+    flex-direction: column;
+  }
 }
